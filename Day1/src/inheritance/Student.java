@@ -33,7 +33,7 @@ class Student {
 
 	public Student() { } // 기본생성자 추가
 	
-	public Student(String studentNo, String name, int age) {
+	public Student(String studentNo, String name, int age) { // 상속받은 자식class에서 super()로 부모생성자 호출
 		this.studentNo = studentNo;
 		this.name = name;
 		this.age = age;

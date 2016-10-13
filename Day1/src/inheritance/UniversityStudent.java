@@ -17,7 +17,7 @@ public class UniversityStudent extends Student {
 							 int age, 
 							 String major) {
 		
-		super(studentNo, name, age); // 부모생성자 활용
+		super(studentNo, name, age); // 부모의 생성자 호출시 활용
 		this.major = major;
 	
 	}
