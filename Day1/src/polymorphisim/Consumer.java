@@ -4,7 +4,18 @@ public class Consumer {
 	public static void main(String[] args) {
 		백열등 b1 = new 백열등();
 		스탠드 s1 = new 스탠드();
-		
+		handLight h1 = new handLight() {
+			
+			@Override
+			public void handOn() {
+				System.out.println("Turn On Hand Light");
+			}
+			
+			@Override
+			public void HandOff() {
+				System.out.println("Turn Off Hand Light");
+			}
+		};
 		
 		s1.install(b1);
 		
@@ -16,5 +27,8 @@ public class Consumer {
 		
 		s1.turnOn();
 		s1.turnOff();
+		
+		h1.handOn();
+		h1.HandOff();
 	}
 }

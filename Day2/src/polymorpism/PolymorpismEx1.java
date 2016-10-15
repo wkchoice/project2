@@ -2,9 +2,9 @@ package polymorpism;
 
 public class PolymorpismEx1 {
 	public static void main(String[] args) {
-		인어 m1 = new 인어();
-		상어 f1 = new 상어();
-		멸치 f2 = new 멸치();
+		인어 m1 = new 인어(); 
+		상어 f1 = new 상어(); 
+		멸치 f2 = new 멸치(); 
 		
 		fish f3 = new fish() {
 			@Override
@@ -13,10 +13,10 @@ public class PolymorpismEx1 {
 			}
 		};
 		
-		dowork(m1);
-		dowork(f1);
-		dowork(f2);
-		dowork(f3);
+		dowork(m1); System.out.println();
+		dowork(f1); System.out.println();
+		dowork(f2); System.out.println();
+		dowork(f3); System.out.println();
 		dowork(new fish() {
 			@Override
 			public void 수중호흡하다() {

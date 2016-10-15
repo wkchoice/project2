@@ -24,3 +24,8 @@ public interface 전구 { // 자식class에서 extends 대신 implements로 변경함.
 	public void lightOff();
 	
 }
+
+public interface handLight {
+	public void handOn();
+	public void HandOff();
+}
